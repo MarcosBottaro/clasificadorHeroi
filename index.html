@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Verificador de Rank</title>
+    <link rel="stylesheet" href="./SCR/Style.css" />
+  </head>
+  <body>
+    <div id="formulario">
+
+      <label for="nome"><h2>Nome do Herói:</h2></label>
+      <input type="text" id="nome" />
+
+      <br />
+
+      <label for="level"><h2>Nível do Personagem:</h2></label>
+      <input type="number" id="level" min="0"/>
+
+      <button onclick="verificarRank()">Verificar Rank</button>
+
+      <div id="resultado"></div>
+    </div>
+    <script src="./SCR/script.js"></script>
+  </body>
+</html>

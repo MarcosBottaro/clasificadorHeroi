@@ -1,0 +1,29 @@
+body {
+  background-image:url("/Img/stars2.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#formulario {
+  color: white;
+  align-items: center;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+#resultado {
+  font-size: xx-large;
+  color: white;
+}
+input {
+  margin-top: 5px;
+  border-radius: 5px;
+  opacity: 0.7;
+  height: 30px;
+}
+button {
+  margin: 30px;
+  height: 40px;
+  width: 130px;
+  opacity: 0.8; 
+}
